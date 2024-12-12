@@ -16,8 +16,8 @@ const hero = () => {
                 Fueled by what
               </span>
             </div>
-            <h1 className="text-[40px] block lg:hidden text-black md:text-[58px] -mt-7 font-thin leading-tight">
-              Fueled by what moves you, driven to <br /> make a difference.
+            <h1 className="text-[40px] w-full break-all block lg:hidden text-black md:text-[58px] -mt-7 font-thin leading-tight">
+              Fueled by what moves you, driven to make a difference.
             </h1>
             <h1 className="text-[40px] hidden lg:block text-black md:text-[58px] -mt-7 font-thin leading-tight">
               moves you, driven to <br /> make a difference.
