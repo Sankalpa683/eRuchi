@@ -12,11 +12,11 @@ const hero = () => {
               <button className="bg-[#3299fe] text-white rounded-full px-6 py-3 shadow-md hover:bg-[#2678c9] transition">
                 At Eruchi
               </button>
-              <span className="text-[40px] md:text-[58px] font-light">
+              <span className="text-[40px] text-black md:text-[58px] font-light">
                 Fueled by what
               </span>
             </div>
-            <h1 className="text-[40px] md:text-[58px] -mt-7 font-thin leading-tight">
+            <h1 className="text-[40px] text-black md:text-[58px] -mt-7 font-thin leading-tight">
               moves you, driven to <br /> make a difference.
             </h1>
           </div>

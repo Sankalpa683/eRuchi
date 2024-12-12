@@ -23,7 +23,7 @@ const navbar = () => {
         </div>
 
         <div className='block lg:hidden cursor-pointer'>
-          <Menu className='w-7 h-7'/>
+          <Menu className='w-7 h-7 text-black'/>
         </div>
       </div>
     </nav>
