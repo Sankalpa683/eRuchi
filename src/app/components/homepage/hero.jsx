@@ -12,11 +12,14 @@ const hero = () => {
               <button className="bg-[#3299fe] text-white rounded-full px-6 py-3 shadow-md hover:bg-[#2678c9] transition">
                 At Eruchi
               </button>
-              <span className="text-[40px] text-black md:text-[58px] font-light">
+              <span className="text-[40px] hidden lg:block text-black md:text-[58px] font-light">
                 Fueled by what
               </span>
             </div>
-            <h1 className="text-[40px] text-black md:text-[58px] -mt-7 font-thin leading-tight">
+            <h1 className="text-[40px] block lg:hidden text-black md:text-[58px] -mt-7 font-thin leading-tight">
+              Fueled by what moves you, driven to <br /> make a difference.
+            </h1>
+            <h1 className="text-[40px] hidden lg:block text-black md:text-[58px] -mt-7 font-thin leading-tight">
               moves you, driven to <br /> make a difference.
             </h1>
           </div>
@@ -24,11 +27,11 @@ const hero = () => {
             <p className="text-lg text-gray-600 leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
             </p>
-            <div className="flex items-center gap-4">
-              <button className="bg-[#3299fe] text-white rounded-full px-6 py-3 shadow-md hover:bg-[#2678c9] transition">
+            <div className="flex items-center gap-2">
+              <button className="bg-[#3299fe] text-white rounded-full px-8 py-3 shadow-md hover:bg-[#2678c9] transition">
                 Take Survey
               </button>
-              <button className="text-white bg-black p-4 rounded-full hover:scale-105 transition">
+              <button className="text-white bg-black p-3 rounded-full hover:scale-105 transition">
                 <ArrowUpRight className="w-6 h-6" />
               </button>
             </div>
