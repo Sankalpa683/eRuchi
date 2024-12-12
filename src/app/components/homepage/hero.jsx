@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 const hero = () => {
   return (
     <>
-      <section className="max-w-[1400px] mx-auto w-full py-16 px-6">
+      <section className="max-w-[1400px] mx-auto w-full py-16 px-6" id='hero_section'>
         {/* Hero Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="flex flex-col gap-6">
@@ -12,14 +12,14 @@ const hero = () => {
               <button className="bg-[#3299fe] text-white rounded-full px-6 py-3 shadow-md hover:bg-[#2678c9] transition">
                 At Eruchi
               </button>
-              <span className="text-[40px] hidden lg:block text-black md:text-[58px] font-light">
+              <span className="text-[40px] tracking-tight  hidden lg:block text-black md:text-[58px]">
                 Fueled by what
               </span>
             </div>
-            <h1 className="text-[40px] -mt-1 w-full break-all block lg:hidden text-black md:text-[58px] font-thin leading-tight">
+            <h1 className="text-[40px] tracking-tight  -mt-1 w-full break-all block lg:hidden text-black md:text-[58px] font-thin leading-tight">
               Fueled by what moves you, driven to make a difference.
             </h1>
-            <h1 className="text-[40px] hidden lg:block text-black md:text-[58px] -mt-7 font-thin leading-tight">
+            <h1 className="text-[40px] tracking-tight  hidden lg:block text-black md:text-[58px] -mt-7 font-thin leading-tight">
               moves you, driven to <br /> make a difference.
             </h1>
           </div>

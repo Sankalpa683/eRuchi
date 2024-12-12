@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#hero_section{
+  font-family: inherit;
+  font-weight: 200;
+}
