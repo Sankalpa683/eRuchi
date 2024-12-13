@@ -4,7 +4,7 @@ import { Send } from 'lucide-react'
 const heropage3 = () => {
     return (
         <>
-            <section className='py-24 px-6'>
+            <section className='py-24 px-6 bg-white text-black'>
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-12'>
                     <div className='flex flex-col space-y-5'>
                         <h1 className='text-4xl lg:text-6xl tracking-wide'>
@@ -49,7 +49,7 @@ const heropage3 = () => {
                             </div>
                         </div>
                         <div className='grid w-full gap-5 items-center'>
-                            <div className='bg-[#05132D] p-8 w-full h-[160px] lg:h-full object-cover bg-[url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg)] text-white p-8 rounded-3xl space-y-4'>
+                            <div className='bg-[#05132D] w-full h-[160px] lg:h-full object-cover bg-[url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg)] text-white p-8 rounded-3xl space-y-4'>
 
                             </div>
                         </div>

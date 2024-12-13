@@ -5,7 +5,7 @@ const heropage2 = () => {
     return (
         <>
             {/* py-16  */}
-            <section className='py-20 px-6'>
+            <section className='py-20 px-6 bg-white text-black'>
                 <div className='flex flex-wrap lg:flex-nowrap space-y-12 justify-between items-center'>
                     <div className='flex flex-wrap flex-col space-y-6'>
                         <div className="flex flex-wrap items-center gap-1">

@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 const hero1 = () => {
   return (
     <>
-      <section className="py-16 px-6" id='hero_section'>
+      <section className="py-16 px-6 bg-white text-black" id='hero_section'>
         {/* Hero Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="flex flex-col gap-6">
