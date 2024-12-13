@@ -11,8 +11,8 @@ const footer = () => {
                             <div className="col-span-2 md:col-span-4 lg:col-span-4 xl:col-span-5 flex flex-col items-start justify-center">
                                 <div className="mb-4">
                                     <img
-                                        src="http://localhost:3000/_next/image?url=%2Flogo.png&w=256&q=75"
-                                        alt="HamroCommerce Logo"
+                                        src="/logo.png"
+                                        alt="eRuchi Logo"
                                         className="w-[200px]"
                                     />
                                 </div>
