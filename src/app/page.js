@@ -1,6 +1,7 @@
 import Navbar from "@/app/components/homepage/navbar";
 import Hero1 from "./components/homepage/homepage/heropage1";
 import Heropage2 from "./components/homepage/homepage/heropage2";
+import Heropage3 from "./components/homepage/homepage/heropage3";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
         <Hero1 />
         <hr />
         <Heropage2 />
+        <hr />
+        <Heropage3 />
       </main>
     </>
   );
