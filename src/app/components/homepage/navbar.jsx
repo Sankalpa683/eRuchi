@@ -7,7 +7,7 @@ import { Menu } from 'lucide-react';
 const navbar = () => {
   
   return (
-    <nav className='border p-3 top-0 bg-white sticky'>
+    <nav className='border z-50 p-3 top-0 bg-white sticky'>
       <div className='flex flex-wrap justify-between mx-4 items-center'>
         <div>
           <Image src="/logo.png" width={135} height={60} alt='eruchi_icon'/>
