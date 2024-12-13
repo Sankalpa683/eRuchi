@@ -1,15 +1,15 @@
 import React from 'react'
 import { ArrowUpRight } from "lucide-react";
 
-const hero = () => {
+const hero1 = () => {
   return (
     <>
-      <section className="max-w-[1400px] mx-auto w-full py-16 px-6" id='hero_section'>
+      <section className="py-16 px-6" id='hero_section'>
         {/* Hero Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="flex flex-col gap-6">
             <div className="flex items-center gap-5">
-              <button className="bg-[#3299fe] text-white rounded-full px-6 py-3 shadow-md hover:bg-[#2678c9] transition">
+              <button className="bg-[#3299fe]  text-white rounded-full px-6 py-3 shadow-md hover:bg-[#2678c9] transition">
                 At Eruchi
               </button>
               <span className="text-[40px] tracking-tight  hidden lg:block text-black md:text-[58px]">
@@ -28,7 +28,7 @@ const hero = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
             </p>
             <div className="flex items-center gap-2">
-              <button className="bg-[#3299fe] text-white rounded-full px-8 py-3 shadow-md hover:bg-[#2678c9] transition">
+              <button className="bg-[#3299fe] text-2xl text-white rounded-full px-8 py-3 shadow-md hover:bg-[#2678c9] transition">
                 Take Survey
               </button>
               <button className="text-white bg-black p-3 rounded-full hover:scale-105 transition">
@@ -74,4 +74,4 @@ const hero = () => {
   )
 }
 
-export default hero
+export default hero1
