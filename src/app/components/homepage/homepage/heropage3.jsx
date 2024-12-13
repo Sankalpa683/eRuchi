@@ -20,8 +20,8 @@ const heropage3 = () => {
                         <div className='flex flex-col space-y-6'>
                             <h1 className='text-blue-400 text-4xl'>Contact Us</h1>
                             <div className='flex items-center justify-between gap-1 sm:flex-row'>
-                                <input type='email' class="py-2.5 px-5 w-full md:max-w-md border border-gray-300 shadow-sm rounded-full text-lg focus:outline-none" placeholder={`Your Email Address`} />
-                                <button class="p-3 sm:p-4 text-white shadow-sm rounded-full bg-indigo-600 font-semibold"><Send /></button>
+                                <input type='email' className="py-2.5 px-5 w-full md:max-w-md border border-gray-300 shadow-sm rounded-full text-lg focus:outline-none" placeholder={`Your Email Address`} />
+                                <button className="p-3 sm:p-4 text-white shadow-sm rounded-full bg-indigo-600 font-semibold"><Send /></button>
                             </div>
                         </div>
                     </div>
