@@ -83,7 +83,7 @@ const page = () => {
 
     return (
         <>
-            <section className='py-16 max-w-[1400px] mx-auto w-full'>
+            <section className='py-16 bg-white text-black max-w-[1400px] mx-auto w-full'>
                 <div className='mx-5 flex flex-col gap-16'>
                     <div className='flex flex-col space-y-7'>
                         <h1 className='text-3xl lg:text-5xl'>

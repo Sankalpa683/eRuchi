@@ -3,7 +3,7 @@ import React from 'react'
 const login = () => {
   return (
     <>
-      <section className='py-20'>
+      <section className='py-20 bg-white text-black '>
         <div className='flex justify-center lg:justify-between items-center'>
           <div className='hidden lg:block'>
 
