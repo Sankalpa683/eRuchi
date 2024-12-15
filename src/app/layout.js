@@ -1,5 +1,8 @@
 import { Geist, Geist_Mono, Inter, Gabarito } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/app/components/homepage/navbar";
+import Footer from "./components/footer";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,7 +36,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${gabarito.variable} antialiased`}
       >
+        <Navbar />
         {children}
+        <hr />
+        <Footer className="max-w-[1400px] mx-auto w-full" />
       </body>
     </html>
   );
