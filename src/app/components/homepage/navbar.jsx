@@ -15,7 +15,7 @@ const navbar = () => {
           </Link>
         </div>
         <div className='hidden lg:flex md:flex gap-8'>
-          <Link href='/'> <span className='uppercase'>Shop</span></Link>
+          <Link href='/shop'> <span className='uppercase'>Shop</span></Link>
           <Link href='/'> <span className='uppercase'>Blog</span></Link>
           <Link href='/'> <span className='uppercase'>Survey</span></Link>
           <Link href='/faqs'> <span>FAQs</span></Link>
