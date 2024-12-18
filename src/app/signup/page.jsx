@@ -27,7 +27,7 @@ const Signup = () => {
 
   return (
     <>
-      <section className="px-6 py-20 mx-auto max-w-[1400px] w-full">
+      <section className="px-6 py-12 lg:py-20 mx-auto max-w-[1400px] w-full">
         <form onSubmit={handleSubmit(onSubmit)}>
           <div>
             <div className="flex flex-col">
