@@ -2,6 +2,8 @@ import { Geist, Geist_Mono, Inter, Gabarito } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/components/homepage/navbar";
 import Footer from "./components/footer";
+import NextTopLoader from 'nextjs-toploader';
+
 
 
 // const geistSans = Geist({
@@ -36,6 +38,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${gabarito.variable} antialiased`}
       >
+        <NextTopLoader />
         <Navbar />
         {children}
         <hr />
