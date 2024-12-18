@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const login = () => {
   return (
@@ -19,12 +20,12 @@ const login = () => {
               <input type='password' placeholder='Password' className='w-full outline-none text-lg p-4 border-b' />
             </div>
             <div className='w-full flex justify-between text-gray-500 flex-wrap'>
-              <a className='text-gray-600 underline'>
+              <Link href='/' className='text-gray-600 underline'>
                 forgot password?
-              </a>
-              <a className='text-gray-600 underline'>
+              </Link>
+              <Link href='/signup' className='text-gray-600 underline'>
                 Don't have an account?
-              </a>
+              </Link>
             </div>
             <button className='w-full mt-4 p-3 bg-black text-white rounded-2xl'>
               Login
