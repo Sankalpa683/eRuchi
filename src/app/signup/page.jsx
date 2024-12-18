@@ -31,7 +31,7 @@ const Signup = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
           <div>
             <div className="flex flex-col">
-              <h1 className="text-4xl lg:text-5xl">
+              <h1 className="text-3xl lg:text-5xl">
                 Hey There!<br />
                 What's your name? <span className="text-4xl text-[#12ff01]">*</span>
               </h1>
