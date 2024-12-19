@@ -5,7 +5,7 @@ import { ShoppingBag } from 'lucide-react';
 const product = ({ params }) => {
     return (
         <section className='w-full mx-auto max-w-[1400px] bg-white text-black py-12'>
-            <div className='w-full max-w-6xl mx-auto px-4 flex justify-start items-start space-x-12 flex-wrap space-y-12 lg:space-y-0'>
+            <div className='w-full max-w-6xl mx-auto px-4 flex justify-start items-start space-x-1 lg:space-x-12 flex-wrap space-y-12 lg:space-y-0'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 w-full lg:w-fit'>
                     <div className='bg-[#05132D] col-span-2 w-full h-[360px] lg:w-[550px] lg:h-[400px]  object-cover bg-[url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg)] text-white p-8 rounded-3xl space-y-4'>
 
