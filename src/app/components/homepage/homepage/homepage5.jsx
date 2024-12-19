@@ -21,7 +21,7 @@ const homepage5 = () => {
              hic tenetur tempore corporis possimus, quo 
              molestiae cum amet ex.
           </p>
-          <button className='p-2 rounded-full bg-black text-white w-full'>
+          <button className='p-3 rounded-full bg-black text-white w-full'>
             Check out our blog
           </button>
         </div>

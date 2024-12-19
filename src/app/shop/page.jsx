@@ -1,6 +1,6 @@
 import React from 'react'
 import { ShoppingBag, Search } from 'lucide-react';
-
+import Link from 'next/link';
 
 const shop = () => {
   const images = [
@@ -88,17 +88,21 @@ const shop = () => {
                 className={`relative overflow-hidden rounded-3xl transition-transform hover:scale-[0.98] ${image.span ? 'md:col-span-2' : ''
                   }`}
               >
-                <div className="absolute inset-0 bg-black/20 z-10" />
-                <img
-                  src={image.src}
-                  alt={image.title}
-                  className="object-cover w-full h-full"
-                  sizes={image.span ? "100vw" : "(max-width: 768px) 100vw, 50vw"}
-                />
-                <div className="absolute bottom-0 left-0 right-0 p-8 z-20 bg-gradient-to-t from-black/50 to-transparent">
-                  <h2 className="text-white text-2xl font-bold mb-2">{image.title}</h2>
-                  <p className="text-white text-xl">{image.price}</p>
-                </div>
+                <Link href='/product/1'>
+
+                  <div className="absolute inset-0 bg-black/20 z-10" />
+                  <img
+                    src={image.src}
+                    alt={image.title}
+                    className="object-cover w-full h-full"
+                    sizes={image.span ? "100vw" : "(max-width: 768px) 100vw, 50vw"}
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 p-8 z-20 bg-gradient-to-t from-black/50 to-transparent">
+                    <h2 className="text-white text-2xl font-bold mb-2">{image.title}</h2>
+                    <p className="text-white text-xl">{image.price}</p>
+                  </div>
+                </Link>
+
               </div>
             ))}
           </div>
@@ -117,7 +121,7 @@ const shop = () => {
             <h1 className='text-3xl'>
               Provide Feedback
             </h1>
-            <textarea placeholder='Text Here' className='outline-none border rounded-xl px-3 py-5'/>
+            <textarea placeholder='Text Here' className='outline-none border rounded-xl px-3 py-5' />
             <div className='flex gap-1 items-center'>
               <button className='text-white bg-black p-3 rounded-full hover:scale-105 transition'>
                 <ShoppingBag className="w-6 h-6" />
