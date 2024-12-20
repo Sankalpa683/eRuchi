@@ -7,7 +7,7 @@ import Homepage5 from "./components/homepage/homepage/homepage5";
 export default function Home() {
   return (
     <>
-      <main className="max-w-[1400px] mx-auto w-full">
+      <main className="max-w-[1400px] mx-auto w-full bg-white text-black">
         <Hero1 />
         <hr />
         <Heropage2 />
