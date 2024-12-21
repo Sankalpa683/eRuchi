@@ -1,11 +1,12 @@
 'use client'
-
 import { Trash2 } from 'lucide-react'
-import Image from 'next/image'
+
 
 export default function Cart() {
+
+  
   return (
-    <div className=" bg-white text-black">
+    <section className=" bg-white text-black">
       <main className="mx-auto max-w-[1400px] px-4 py-12 lg:py-16">
         <div className="mb-12">
           <h1 className="mb-2 text-[2.75rem] font-thin tracking-tight lg:text-5xl">Your Cart</h1>
@@ -115,7 +116,7 @@ export default function Cart() {
           </div>
         </div>
       </main>
-    </div>
+    </section>
   )
 }
 
