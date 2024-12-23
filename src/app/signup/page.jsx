@@ -6,9 +6,9 @@ import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 
 const signupSchema = z.object({
-  firstName: z.string().min(1, "First Name is required"),
-  middleName: z.string().min(1, "Middle Name is required"),
-  lastName: z.string().min(1, "Last Name is required"),
+  firstName: z.string().min(1, "First Name is required").max(50, "First Name must be less then 50 words"),
+  middleName: z.string().min(1, "Middle Name is required").max(50, "Middle Name must be less then 50 words"),
+  lastName: z.string().min(1, "Last Name is required").max(50, "Last Name must be less then 50 words"),
 });
 
 const Signup = () => {
